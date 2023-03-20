@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Update Profile</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-login-form.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+      
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form id="update-form">
+
+            <div class="form-outline mb-4">
+              <input type="text" id="form3Example3" class="form-control form-control-lg"
+                placeholder="Enter a Age" name="Age" required/>
+              <label class="form-label" for="form3Example3">Age</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="firstName" class="form-control form-control-lg"
+                placeholder="Enter DOB" name="dob" required/>
+              <label class="form-label" for="firstName">DOB</label>
+            </div>
+
+            <div class="text-center text-lg-start mt-4 pt-2">
+                <input type="hidden" name="user_id" id="user_id">
+              <button type="submit" class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Update</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script type="text/javascript" src="js/update.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
